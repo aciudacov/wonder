@@ -20,6 +20,6 @@ window.onclick = function(event) {
 function openCatalog(modal_id, catalog_link){
     window.removeEventListener(mousewheelEvent, throttled, false);
     currentModal = document.getElementById(modal_id+'_m');
-    top.document.getElementById('catalog_frame').setAttribute("src", "./catalog.php?category="+catalog_link);
+    top.document.getElementById('catalog_frame').setAttribute("src", "./catalog.html?category="+catalog_link);
     currentModal.style.display = "block";
 }
