@@ -31,20 +31,14 @@ html {
 	font-size: 8vw;
 	font-family: 'Roboto', sans-serif;
 	text-shadow: 2px 2px 5px black;
-	color: white;
-	opacity: 0.8;
-	margin: 0 auto;
 }
 
 .slidearticle {
-	width: 70%;
+	width: 90%;
 	height: auto;
 	max-height: 65%;
 	margin: 0 auto;
 	opacity: 0.99;
-	overflow-y: auto;
-	backdrop-filter: blur(5px);
-	border-radius: 30px;
 	padding: 3%;
 	text-align: justify;
 }
@@ -133,10 +127,6 @@ html {
 
 .topnav:hover {
 	background-color: rgba(40, 124, 110, 0.9);
-}
-
-.topnav .icon {
-	display: none;
 }
 
 .topnav a {
@@ -1352,12 +1342,8 @@ svg {
 
 .background {
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	overflow: hidden;
 	will-change: transform;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
 	height: 130vh;
 	position: fixed;
 	width: 100%;
